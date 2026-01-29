@@ -18,14 +18,16 @@ Desarrollador de software con un perfil multidisciplinar: combino lógica analí
 
 ---
 
-## 🚀 Proyecto Destacado
+## 🚀 Proyecto Destacado — EnergyApp
 
-### 📱 App Android de Gestión de Datos
-[Ver código en GitHub](https://github.com/ethzal/practicaviewnext) | [Descargar APK](https://github.com/ethzal/practicaviewnext/releases)  
-- App nativa Android con **Clean Architecture y MVVM**.
+### 📱 App Android de gestión de datos con Clean Architecture, MVVM y Java
 - Integración con **API REST** y filtrado avanzado de datos.
 - Tests unitarios con **JUnit** y **Mockito**.
 - Gestión profesional de código con **Git/GitHub**.
+- Base de datos local con **Room**.
+- Inyección de dependencias con **Hilt**.
+
+[Ver código en GitHub](https://github.com/ethzal/energy-billing-clean) | [Descargar APK](https://github.com/ethzal/energy-billing-clean/releases)  
 
 ---
 
