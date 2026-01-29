@@ -1,0 +1,33 @@
+name: Update GitHub Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # se ejecuta todos los días a medianoche UTC
+  workflow_dispatch: # permite ejecutarlo manualmente desde Actions
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Generate GitHub Stats
+        run: |
+          # Instalar Node.js
+          curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+          sudo apt-get install -y nodejs
+          # Clonar el repo de github-readme-stats
+          git clone https://github.com/anuraghazra/github-readme-stats.git stats
+          cd stats
+          npm install
+          # Generar imagen de stats
+          node generate-card.js --username adri833 --output ../stats.svg
+          
+      - name: Commit and push
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add stats.svg
+          git commit -m "Update GitHub Stats"
+          git push
