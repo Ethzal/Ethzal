@@ -22,7 +22,7 @@ Desarrollador de software con un perfil multidisciplinar: combino lógica analí
 
 <table>
 <tr>
-  <td width="60%" valign="top">
+  <td width="50%" valign="top">
     
 ### 📱 App Android modular con Clean Architecture
 **Tecnologías principales:**
@@ -35,7 +35,7 @@ Desarrollador de software con un perfil multidisciplinar: combino lógica analí
 🔗 [Ver código](https://github.com/Ethzal/energy-billing-clean) | [Descargar APK](https://github.com/Ethzal/energy-billing-clean/releases/latest)
     
   </td>
-  <td width="40%" align="right">
+  <td width="50%" align="right">
     
   <a href="https://github.com/Ethzal/energy-billing-clean">
     <img width="100%" alt="EnergyApp Dashboard" src="https://github.com/user-attachments/assets/e569a108-1c23-480c-baf1-fac74dd5be7a" />
