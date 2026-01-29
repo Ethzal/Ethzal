@@ -18,16 +18,32 @@ Desarrollador de software con un perfil multidisciplinar: combino lógica analí
 
 ---
 
-## 🚀 Proyecto Destacado — EnergyApp
+## 🚀 Proyecto Destacado — [EnergyApp](https://github.com/Ethzal/energy-billing-clean)
 
-### 📱 App Android de gestión de datos con Clean Architecture, MVVM y Java
-- Integración con **API REST** y filtrado avanzado de datos.
-- Tests unitarios con **JUnit** y **Mockito**.
-- Gestión profesional de código con **Git/GitHub**.
-- Base de datos local con **Room**.
-- Inyección de dependencias con **Hilt**.
+<table>
+<tr>
+  <td width="60%" valign="top">
+    
+### 📱 App Android modular con Clean Architecture
+**Tecnologías principales:**
+- **Clean Architecture** + **MVVM** (Java)
+- **Room Database** + **Retrofit** (API REST)
+- **Hilt** (Inyección de dependencias)
+- **JUnit 4** + **Mockito** (Tests unitarios)
+- **Git/GitHub Flow** (Gestión profesional)
 
-[Ver código en GitHub](https://github.com/ethzal/energy-billing-clean) | [Descargar APK](https://github.com/ethzal/energy-billing-clean/releases)  
+🔗 [Ver código](https://github.com/Ethzal/energy-billing-clean) | [Descargar APK](https://github.com/Ethzal/energy-billing-clean/releases/latest)
+    
+  </td>
+  <td width="40%" align="right">
+    
+  <a href="https://github.com/Ethzal/energy-billing-clean">
+    <img width="100%" alt="EnergyApp Dashboard" src="https://github.com/user-attachments/assets/e569a108-1c23-480c-baf1-fac74dd5be7a" />
+  </a>
+    
+  </td>
+</tr>
+</table>
 
 ---
 
