@@ -1,25 +1,35 @@
 name: Update README cards
+
 on:
   schedule:
-    - cron: "0 3 * * *"
+    - cron: "0 3 * * *"  # Ejecuta todos los días a las 03:00
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
+      # 1️⃣ Checkout del repo con token de escritura de adri833
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.ADRI_PAT }}
+          persist-credentials: true
+
+      # 2️⃣ Generar la tarjeta de stats
       - name: Generate stats card
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true
+          options: username=adri833&show_icons=true
           path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.ADRI_PAT }}
+
+      # 3️⃣ Commit y push usando adri833
       - name: Commit cards
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@users.noreply.github.com"
+          git config user.name "adri833"
+          git config user.email "adri833@users.noreply.github.com"
           git add profile/*.svg
-          git commit -m "Update README cards" || exit 0
+          git commit -m "Update README cards" || echo "No changes to commit"
           git push
