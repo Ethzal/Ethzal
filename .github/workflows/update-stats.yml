@@ -2,8 +2,8 @@ name: Update GitHub Stats
 
 on:
   schedule:
-    - cron: '0 0 * * *' # se ejecuta todos los días a medianoche UTC
-  workflow_dispatch: # permite ejecutarlo manualmente desde Actions
+    - cron: '0 0 * * *' # todos los días a medianoche UTC
+  workflow_dispatch:
 
 jobs:
   update-stats:
@@ -13,21 +13,17 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Generate GitHub Stats
-        run: |
-          # Instalar Node.js
-          curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
-          sudo apt-get install -y nodejs
-          # Clonar el repo de github-readme-stats
-          git clone https://github.com/anuraghazra/github-readme-stats.git stats
-          cd stats
-          npm install
-          # Generar imagen de stats
-          node generate-card.js --username adri833 --output ../stats.svg
-          
+        uses: anuraghazra/github-readme-stats@master
+        with:
+          username: adri833
+          output: stats.svg
+          show_icons: true
+          theme: radical
+
       - name: Commit and push
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           git add stats.svg
-          git commit -m "Update GitHub Stats"
+          git commit -m "Update GitHub Stats" || echo "No changes to commit"
           git push
