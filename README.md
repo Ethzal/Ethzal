@@ -26,7 +26,7 @@ Desarrollador de software con un perfil multidisciplinar: combino lógica analí
     
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Mobile%20Phone%20With%20Arrow.webp" alt="Mobile Phone With Arrow" width="25" height="25" /> App Android modular con Clean Architecture
 **Tecnologías principales:**
-- **Clean Architecture** + **MVVM** (Java)
+- **Clean Architecture** + **MVVM** (Kotlin, migrated from Java)
 - **Room Database** + **Retrofit** (API REST)
 - **Hilt** (Inyección de dependencias)
 - **JUnit 4** + **Mockito** (Tests unitarios)
