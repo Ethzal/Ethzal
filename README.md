@@ -27,7 +27,9 @@ Trabajo principalmente con Kotlin y Java, y tengo experiencia práctica con arqu
 
 ---
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="25" height="25" /> Proyecto Destacado — Aplicación Android de gestión de facturas energéticas
+## 🚀 Proyectos destacados
+
+### 📱 Aplicación Android de gestión de facturas energéticas
 
 <table>
 <tr>
@@ -57,7 +59,7 @@ Trabajo principalmente con Kotlin y Java, y tengo experiencia práctica con arqu
 
 ---
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="25" height="25" /> Proyecto Destacado — Minerva
+### 📊 Minerva — Analítica educativa y Machine Learning
 
 <table>
 <tr>
@@ -87,7 +89,7 @@ Trabajo principalmente con Kotlin y Java, y tengo experiencia práctica con arqu
 
 ---
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="25" height="25" /> Proyecto Destacado — FFXV Modding & Tooling
+### 🛠️ FFXV Modding & Tooling — Ingeniería inversa y herramientas
 
 <table>
 <tr>
@@ -116,8 +118,6 @@ Trabajo principalmente con Kotlin y Java, y tengo experiencia práctica con arqu
   </td>
 </tr>
 </table>
-
----
 
 ---
 
